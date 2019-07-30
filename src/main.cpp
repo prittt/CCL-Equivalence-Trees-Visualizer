@@ -161,11 +161,11 @@ public:
 			cout << "Unable to generate '" + filename_pdf + "'. \n";
 		}
 
-		string rm_command = "del " + output_path_dot.string();
+		//string rm_command = "del " + output_path_dot.string();
 
-		if (0 != system(rm_command.c_str())) {
-			cout << "Unable to remove '" + filename_dot + "'. \n";
-		}
+		//if (0 != system(rm_command.c_str())) {
+		//	cout << "Unable to remove '" + filename_dot + "'. \n";
+		//}
 	}
 
 	void PerformLabeling()
